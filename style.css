@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+#logo{
+    margin:100px;
+}
+#logo h1{
+    color:#ccc;
+    font-size: 3.5rem;
+}
+.parent{
+    background-color: white;
+    padding: 2%;
+}
+.parent .first-child{
+    border-radius: 20px;
+    background-color: black;
+    padding:20px
+}
+.name{
+    margin:0 30% 20px 30%;
+   width:auto;
+    color:#000;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.yellowl{
+    display: inline-block;
+    font-weight: bold;
+    background-color: rgb(230, 230, 51);
+    text-align: center;
+    margin: 15px 120px;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.yellowr{
+    display:inline-block;
+    font-weight: bold;
+    background-color: yellow;
+    text-align: center;
+    margin: 15px 120px;
+    padding: 15px;
+    border-radius: 10px;
+}
