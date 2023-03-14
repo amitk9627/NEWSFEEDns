@@ -2,7 +2,7 @@ body{
     background-color: rgb(27, 27, 27);
 }
 #logo{
-    margin:100px;
+    margin:100px 200px;
 }
 #logo h1{
     color:#ccc;
@@ -23,25 +23,81 @@ body{
     color:#000;
     background-color: #ccc;
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+    margin:40px 0 20px 0;
 }
 
-.yellowl{
+button{
+    width:30%;
+    height:60px;
     display: inline-block;
     font-weight: bold;
+    font-size: 2rem;
     background-color: rgb(230, 230, 51);
     text-align: center;
-    margin: 15px 120px;
-    padding:15px;
+    margin:0px 40px;
+    padding:10px;
     border-radius: 10px;
+    cursor: pointer;
 }
-
-.yellowr{
-    display:inline-block;
+.getNews{
+    text-align:center;
+    font-size:2.5rem;
+    color:black;
     font-weight: bold;
-    background-color: yellow;
+}
+.stayupdate{
+    margin:35px 0;
+}
+.stayupdate p{
+   text-align:center;
+   color:white;
+   color:black;
+   font-size: 3.5rem;
+   
+}
+/* saved news */
+#saved_section{
+    margin:100px 300px;
+}
+.saved_parent{
+    background-color: #fff;
+}
+.saved_header{
+    background-color: #000;
+    border-radius: 25px;
+    padding:20px;
+}
+.saved_name{
+    display:inline-block;
+    color:#000;
+    background-color: #ccc;
+    text-align: left;
+    font-size: 2rem;
+    padding: 5px;
+    font-weight: bold;
+}
+.saved_button{
+    display:inline-block;
+    color:#000;
+    padding: 5px;
+    background-color: rgb(224, 224, 95);
     text-align: center;
-    margin: 15px 120px;
-    padding: 15px;
+    font-size: 2rem;
+    font-weight: bold;
     border-radius: 10px;
+    margin-left: 10px;
+}
+.saved_news{
+    background-color: rgb(137, 135, 135);
+    margin: 20px;
+    border-radius: 15px;
+}
+.saved_news p{
+    font-size: 1.5rem;
+    padding: 10px;
 }
