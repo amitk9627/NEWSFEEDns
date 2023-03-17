@@ -60,7 +60,10 @@ button{
    font-size: 3.5rem;
    
 }
-/* saved news */
+
+
+
+/* saved news page */
 #saved_section{
     margin:100px 300px;
 }
@@ -109,4 +112,43 @@ button{
 .saved_news p{
     font-size: 1.5rem;
     padding: 10px;
+}
+
+
+
+/* news news page */
+ul{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+ul span{
+    display:inline-block;
+    color:#000;
+    padding: 3px;
+    background-color: rgb(224, 224, 95);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    
+
+}
+ul li{
+    display:inline-block;
+    padding: 10px;
+    background-color: rgb(224,224,95);
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+/* apply on all page */
+a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+
 }
